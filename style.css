@@ -1,0 +1,130 @@
+body {
+  --bgc-body: #000;
+  /* background-image: linear-gradient(to left, var(--bgc-body), #fff 10%, #fff 90%, var(--bgc-body)); */
+  
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  background-color: gold;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  line-height: 2rem;
+  font-size: 1.4rem;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  color: var(--color-places__a);
+}
+a:visited {
+  color: var(--color-places__a);
+}
+
+/* --HEADER-- */
+
+.header {
+  --space-around-of-header__h1: 50px;
+}
+
+.header__banner {
+  width: 100vw;
+  max-height: 60vh;
+  margin-bottom: var(--space-around-of-header__h1);
+  overflow: hidden;
+}
+
+.header__banner img {
+  object-fit: contain;
+}
+
+.header__body h1 {
+  padding: 0 10px;
+  margin-bottom: var(--space-around-of-header__h1);
+}
+
+.header__body p {
+  padding: 30px;
+  text-align: center;
+  margin: 0;
+}
+/*  --MAIN-- */
+
+.main {
+  background-color: red;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.main__provinces {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main__provinces-a {
+  font-size: 2rem;
+  background: gold;
+  padding: 5px 20px;
+}
+
+
+
+/* --MEADI QUERY-- */
+
+@media (min-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .places__a {
+    margin: 20px;
+  }
+
+  .main h2{
+    margin: var(--space-around-of-main__h2-height) 0;
+  }
+
+  .main p {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 800px) {
+  :root {
+    font-size: 16px;
+  }
+  .places__a {
+    margin: 30px;
+  }
+
+}
+@media (min-width: 1200px) {
+  :root {
+    font-size: 22px;
+  }
+}

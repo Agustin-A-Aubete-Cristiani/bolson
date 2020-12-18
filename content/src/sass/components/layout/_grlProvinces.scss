@@ -1,0 +1,34 @@
+.province {
+  .main {
+    padding-top: 50px;
+    background-color:crimson;
+    display: flex;
+    flex-flow: nowrap column;
+    justify-content: center;
+    align-content: center;
+  }
+  .main__title {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    width: 100%;
+    font-size: 1.3rem;
+  }
+  .main__place {
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .main__place-img {
+    height: 300px;
+    box-shadow: 0 0 10px #000;
+    margin-bottom: 10px;
+    // border-radius: 4px;
+    object-fit: contain;
+    background-color: #444;
+  }
+  .main__place-subTittle {
+    text-decoration: none;
+    font-size: 1rem;
+    margin-bottom: 0;
+  }
+}

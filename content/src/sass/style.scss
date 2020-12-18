@@ -1,0 +1,23 @@
+// BASE
+@import 
+"./components/base/normalize",
+"./components/base/grlTags";
+
+// LAYOUT
+@import 
+"./components/layout/home",
+"./components/layout/grlProvinces",
+"./components/layout/provincesNeuquen";
+
+// MODULES 
+@import 
+"./components/modules/nav";
+
+// STATE
+@import 
+"./components/state/media" ,
+"./components/state/btnHover",
+"./components/state/onIt";
+
+
+
