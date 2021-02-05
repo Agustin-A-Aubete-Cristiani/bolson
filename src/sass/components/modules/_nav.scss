@@ -1,0 +1,23 @@
+.nav {
+  background-color: $base-color;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0;
+  & .nav__a {
+    color: #fff;
+  }
+}
+.nav__a {
+  border-radius: 2px;
+  padding: 5px;
+  font-size: 1rem;
+  background-color: $btn-color;
+  color: #fff;
+  display: inline-block;
+  &::first-letter {
+    text-transform: uppercase;
+  }
+}

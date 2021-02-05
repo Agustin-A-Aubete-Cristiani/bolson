@@ -14,6 +14,24 @@
       border-radius: 5px;
     }
   }
+  .nav__a {
+    padding: 5px 20px;
+  }
+  .home {
+    .header__banner {
+      height : 40vh;
+      img {
+        padding: 0;
+      }
+    }
+    .contactInfo {
+      flex-direction: row;
+    }
+  }
+  .header {
+    margin-bottom: 100px;
+    // height: 75vh;
+  }
 }
 
 @media (min-width: 1200px) {

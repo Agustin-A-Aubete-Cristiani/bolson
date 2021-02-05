@@ -1,0 +1,66 @@
+.debug {
+  outline: 1px solid red !important;
+  margin: 5px !important; 
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: $bgcHard-color;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+h1, h2, h3, h4 {
+  font: 'Times New Roman', Times, serif, 1.4rem;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+h2 {
+  text-decoration-line: underline;
+  margin-bottom: 20px;
+}
+
+h3, h4 {
+  margin-bottom: 10px;
+}
+
+h2::first-letter, h3::first-letter, h4::first-letter  {
+  text-transform: uppercase;
+}
+
+a:visited, a:link {
+  color: inherit;
+}
+
+
+.wpp-icon {
+  outline: 1px solid red;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.fa-facebook-square {
+  color: #3b5998;
+}
+.fa-whatsapp-square {
+  color: #25d366;
+}
+
+a[href^="https://elfsight.com/whatsapp-chat-widget"] {
+  display: none !important;
+}

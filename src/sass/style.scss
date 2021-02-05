@@ -1,5 +1,6 @@
 // BASE
 @import 
+"./components/base/variables",
 "./components/base/normalize",
 "./components/base/grlTags";
 
@@ -20,4 +21,6 @@
 "./components/state/onIt";
 
 
-
+// THEME
+@import 
+"./components/theme/text";

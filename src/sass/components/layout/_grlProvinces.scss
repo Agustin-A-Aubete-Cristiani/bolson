@@ -1,7 +1,7 @@
 .province {
   .main {
     padding-top: 50px;
-    background-color:crimson;
+    // background-color: $bgcSoft-color;
     display: flex;
     flex-flow: nowrap column;
     justify-content: center;
@@ -20,11 +20,11 @@
   }
   .main__place-img {
     height: 300px;
-    box-shadow: 0 0 10px #000;
+    box-shadow: 2px 2px 5px #aaa;
     margin-bottom: 10px;
     // border-radius: 4px;
     object-fit: contain;
-    background-color: #444;
+    // background-color: #444;
   }
   .main__place-subTittle {
     text-decoration: none;
