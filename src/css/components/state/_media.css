@@ -1,0 +1,25 @@
+@media (max-width: 400px) {
+  .header {
+    height: 100vh; } }
+
+@media (min-width: 600px) {
+  :root {
+    font-size: 22px; }
+  .main__provinces {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .main__provinces > * {
+      margin: 0 10px; }
+  .nav__a {
+    padding: 5px 20px; }
+  .home .header__banner {
+    height: 40vh; }
+    .home .header__banner img {
+      padding: 0; }
+  .header {
+    height: auto; } }
+
+@media (min-width: 1200px) {
+  :root {
+    font-size: 28px; } }

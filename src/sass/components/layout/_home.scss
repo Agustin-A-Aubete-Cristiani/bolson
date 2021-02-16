@@ -1,4 +1,4 @@
-.home {
+// .home {
   .header__banner {
     max-height: 800px;
     width: 100%;
@@ -34,47 +34,63 @@
   }
   .main {
     width: 100%;
-    height: 20vh;
     display: flex;
     align-items: center;
     flex-direction: column;
   }
   
-  
   .main__provinces {
-    height: 10vh;
-    width: 100%;
+    width: 80%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: flex-start;
+    .provinces__neuquen, .provinces__rioNegro {
+      max-width: 300px;
+      width: 40%;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: center;
+      flex-flow: wrap column;
+    }
   }
   .main__provinces-a {
+    text-align: center;
     font-size: 1rem;
     background-color: $btn-color;
     color: #fff;
     padding: 5px 10px;
     border-radius: 3px;
     transition: background-color .2s;
-    &:nth-child(2) {
-      // outline: 1px solid red !important;
-      background-color: $base-color;
-      // position: relative;
-      // top: -20px;
-    }
+    margin-bottom: 10px;
+  }
+  .main__provinces-a:link {
+    color: #fff;
+  }
+  .main__provinces-a:visited {
+    color: #fff;
+  }
+  .main__provincesExcBtn {
+    font-size: 1.5rem;
+  }
+  .footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #ddd;
   }
   .contactInfo {
-    width: 100vw;
-    background-color: #ddd;
+    margin: 0 auto;
+    width: 100%;
     max-width: 1200px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     font-size: 1.6rem;
     & li {
       text-align: center;
-      width: 100%;
+      // width: 100%;
       line-height: 60px;
     }
   }
-}
+// }

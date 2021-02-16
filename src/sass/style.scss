@@ -6,9 +6,8 @@
 
 // LAYOUT
 @import 
-"./components/layout/home",
-"./components/layout/grlProvinces",
-"./components/layout/provincesNeuquen";
+"./components/layout/home";
+// "./components/layout/grlProvinces",
 
 // MODULES 
 @import 
@@ -23,4 +22,5 @@
 
 // THEME
 @import 
-"./components/theme/text";
+"./components/theme/text",
+"./components/theme/btns";

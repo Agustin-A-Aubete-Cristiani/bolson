@@ -1,17 +1,16 @@
+@media (max-width: 400px) {
+  .header {
+    height: 100vh;
+  }
+}
 @media (min-width: 600px) {
   :root {
     font-size: 22px; 
   }
-  .province {
-    .main {
-      flex-flow: wrap row;
-      justify-content: space-evenly;
-    }
-      .main__place {
-      width: 45%;
-    }
-    .main__place-img {
-      border-radius: 5px;
+  .main__provinces {
+    justify-content: center;
+    & > * {
+      margin: 0 10px;
     }
   }
   .nav__a {
@@ -24,13 +23,9 @@
         padding: 0;
       }
     }
-    .contactInfo {
-      flex-direction: row;
-    }
   }
   .header {
-    margin-bottom: 100px;
-    // height: 75vh;
+    height: auto;
   }
 }
 

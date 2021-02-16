@@ -3,10 +3,12 @@
   margin: 5px !important; 
 }
 
+
+
 body {
   position: relative;
   min-height: 100vh;
-  max-width: 1200px;
+  // max-width: 1200px;
   margin: 0 auto;
   background-color: $bgcHard-color;
 }
@@ -31,7 +33,8 @@ h1 {
 }
 
 h2 {
-  text-decoration-line: underline;
+  font-size: 1.2rem;
+  // font-weight: lighter;
   margin-bottom: 20px;
 }
 
@@ -48,12 +51,12 @@ a:visited, a:link {
 }
 
 
-.wpp-icon {
-  outline: 1px solid red;
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
+// .wpp-icon {
+//   outline: 1px solid red;
+//   position: absolute;
+//   top: 10px;
+//   right: 10px;
+// }
 .fa-facebook-square {
   color: #3b5998;
 }
@@ -64,3 +67,9 @@ a:visited, a:link {
 a[href^="https://elfsight.com/whatsapp-chat-widget"] {
   display: none !important;
 }
+img[src^="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none !important;
+}
+// *[src^="Window__WindowComponent"] {
+//   display: none !important;
+// }
